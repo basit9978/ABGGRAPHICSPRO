@@ -9,28 +9,51 @@
          margin: 0;
          padding: 0;
       }
-     
+   .head{
+      display: flex;
+      
+   }
+     .home{
+      background-color: brown;
+      color: white;
+      padding-left: 4vw;
+      width:80vw;
+      padding-top: 20px;
+         padding-bottom: 15px;
+         font-size: 2vw;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+         
+     }
       .WEB{
          background-color: bisque;
          font-family: monospace;
-         font-size:x-large;
+         font-size:2vw;
          padding-top: 15px;
          padding-bottom: 15px;
          padding-left: 4vw;
+         padding-right: 4vw;
+         width: 15vw;
+         text-align: center;
+      
         
       }
       .sec1{
          height: 60vh;
-         background-color: brown;
+         background-image: url(welcome\ black.jpg) ;
          margin-top: 12px;
+         background-size:cover;
+         background-position: center;
 
       }
       .welcome{
          text-align: center;
-         color: white;
+         color: rgb(255, 255, 255);
+         text-shadow: 3px 3px brown;
          font-size: 05vw;
-         font-family: cursive;
+         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
          padding-top: 225px;
+         text-shadow: 1cm rgb(75, 3, 3);
          
       }
       .learn{
@@ -46,9 +69,7 @@
          color: brown;
          font-size: 1.5vw;
       }
-      .sec2{
-         display: flex;
-      }
+      
       .ser{
          background-color:brown ;
          width: 40vw;
@@ -56,25 +77,25 @@
          margin-top: 8px;
          color: white;
          font-family: monospace;
-         padding: 5vh;
-         font-size: 4.5vw;
+         padding: 1vh;
+         font-size: 2vw;
+         border-top-right-radius: 5vw;
+         border-bottom-right-radius: 5vw;
+         display: inline-block;
         
 
       }
       .name{
-         display:inline-block;
          background-color: rgb(247, 215, 176);
-         padding-top: 40px;
-         padding-bottom: 40px;
-         margin-top: 8px; width: 80%;
+         padding-top: 1vw;
+         padding-bottom: 1vw;
+         margin-top: 8px; 
          margin-left: 13px;
          padding-left: 50px;
          text-align: left;
          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-         font-size: xx-large;
-      
-      
-      }
+         font-size: 3vw;
+       }
       .THANK{
          background-color:brown;
          margin-top: 10px;
@@ -86,24 +107,47 @@
       }
       .contact{
          background-color:bisque;
-         border: 2px solid brown;
+         padding: 0.5vw;
+         
          margin-top: 13px;
-         padding: 8px;
-         text-align: center;
+          text-align: center;
+         }
+      .circle{
+         width:2.4vw;
+
+         background-color: brown;
+         padding: 1vh;
+         margin-top: 8px;
+         display: inline-block;
+         font-size: 2vw;
+         border-radius: 5vw;
+         color: brown;
+         
       }
-      
    </STYLE>
 </head>
 <body>
-   <header class="head"><DIV CLASS="WEB"><b>ABGGRAPHICS</b><SUP>Pro</SUP></DIV></header>
+   <header class="head"><DIV CLASS="WEB"><b>ABGGRAPHICS</b><SUP>Pro</SUP></DIV>
+   <div class="home" >
+      <a href="index.html" style="text-decoration: none;
+      color:white;">HOME</a>
+      <a href="DESIGNS.HTML" style="text-decoration: none;
+      color:white;padding-left: 1vw;">DESIGNS</a>
+   </div>
+  
+   </header>
    <section class="sec1">
       
       <div class="welcome">WELCOME TO OUR WEBSITE
       </div>
-      <div class="learn"><B>OUR WORK</B></div>
+      <div class="learn"><B><a href="DESIGNS.HTML" style="text-decoration: none;
+         color:brown;">OUR WORK</a></B></div>
    </section>
    <section class="sec2">
-      <div class="ser"><b>OUR<BR>SERVICES</b></div>
+      <div class="ser"><b>OUR SERVICES</b></div>
+      <div class="circle">N</div>
+      <div class="circle">N</div>
+      <div class="circle">N</div>
       <div class="name">
          <ul>
             <li>BANNER DESIGN</li>
