@@ -187,9 +187,9 @@ padding:1.5VH ;
 .FOOTER{
    background-color: black;
    color: white;
-   padding: 4vh;
+   padding: 1vw;
    margin-top: 10px;
-   height: 6vh;
+  
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    font-size: 12px;
 }
